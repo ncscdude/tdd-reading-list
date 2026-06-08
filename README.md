@@ -1,8 +1,6 @@
-# Reading list — student starter
+# TDD Reading list
 
-A small Python + pytest project for practicing Test Driven Development. This is the **student exercise project**;
-it mirrors the instructor's `todone` demo so every TDD move
-transfers.
+A small Python + pytest project for practicing Test Driven Development. 
 
 ## Setup
 
@@ -44,6 +42,6 @@ Work through the features one by one, in the order of your choosing. Make sure t
 
 
 Imports work like this: a module at `src/books.py` is importable
-as `from books import ...` from your test file at
+as `from books import ...` from a test file at
 `tests/test_books.py`. The pytest config sets `pythonpath = ["src"]`
 so this works without packaging.
