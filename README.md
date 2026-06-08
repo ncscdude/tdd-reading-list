@@ -10,7 +10,7 @@ From the project root, create and activate a virtual environment:
 
 ```
 python3 -m venv .venv
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 On Windows, use `.venv\Scripts\activate` instead.
