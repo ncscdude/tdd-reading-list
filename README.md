@@ -30,6 +30,8 @@ pytest
 Pytest will report no tests at first. That's expected — you'll
 TDD them into existence as you follow the steps of TDD.
 
+Work through the features one by one, in the order of your choosing. Make sure to practice Test Driven Development as you go.
+
 ## Project layout
 
 | | |
