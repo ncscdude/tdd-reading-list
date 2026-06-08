@@ -9,11 +9,11 @@ transfers.
 From the project root, create and activate a virtual environment:
 
 ```
-python -m venv venv
+python3 -m venv .venv
 source venv/bin/activate
 ```
 
-On Windows, use `venv\Scripts\activate` instead.
+On Windows, use `.venv\Scripts\activate` instead.
 
 Then install dependencies:
 
@@ -39,7 +39,7 @@ TDD them into existence as you follow the steps of TDD.
 | `tests/` | Your tests. Empty — same. |
 | `features/books.feature` | Gherkin scenarios for L1–L3 exercises |
 | `features/remove-and-filter.feature` | Feature-handover exercise for L4 |
-| `BACKLOG.md` | Candidate features for the L4 selection-autonomy discussion |
+
 
 Imports work like this: a module at `src/books.py` is importable
 as `from books import ...` from your test file at
