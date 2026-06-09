@@ -60,7 +60,7 @@ so this works without packaging.
 
 * I want to do Test Driven Development on this project. 
 * Follow the 3 Rules of TDD. 
-  * After test is created ask user to confirm the test itself and whether test fails. (RED)
+  * After test is created ask user to confirm the correctness of the test itself and whether test fails as expected. (RED)
   * After production code is added ask user to confirm that all tests pass. (GREEN)
   * During refactor phase make suggestions to user. Ask user to confirm proposals and/or do own refactoring. (REFACTOR)
 * Acceptance criteria are in features/ folder.
