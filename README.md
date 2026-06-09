@@ -54,3 +54,13 @@ as `from books import ...` from a test file at
 `tests/test_books.py`. 
 * The pytest config sets `pythonpath = ["src"]`
 so this works without packaging.
+
+
+## Prompt
+
+* I want to do Test Driven Development on this project. 
+* Follow the 3 Rules of TDD. 
+* Ask for my confirmation at each step. 
+* During refactor phase make proposals to user, but only apply them if user accepts.
+* Acceptance criteria are in features/ 
+* Start with first scenario.
