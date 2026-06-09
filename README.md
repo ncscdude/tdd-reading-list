@@ -60,7 +60,9 @@ so this works without packaging.
 
 * I want to do Test Driven Development on this project. 
 * Follow the 3 Rules of TDD. 
-* Ask for my confirmation at each step. 
-* During refactor phase make proposals to user, but only apply them if user accepts.
-* Acceptance criteria are in features/ 
-* Start with first scenario.
+  * After test is created ask user to confirm the test itself and whether test fails. (RED)
+  * After production code is added ask user to confirm that all tests pass. (GREEN)
+  * During refactor phase make suggestions to user. Ask user to confirm proposals and/or do own refactoring. (REFACTOR)
+* Acceptance criteria are in features/ folder.
+  * Start with first scenario.
+* User will run pytest separately.
