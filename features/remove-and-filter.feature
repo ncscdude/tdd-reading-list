@@ -14,6 +14,14 @@ Feature: Remove and filter books
     When I remove "Nonexistent book"
     Then the list should still contain "Foundation"
 
+  # Design decision: this reading list models a set of titles, so adding a
+  # book that's already present is idempotent. (A "log of entries" list would
+  # allow the duplicate instead — both are valid; this scenario picks one.)
+  Scenario: Adding a book already in the list keeps a single entry
+    Given I have added book "Foundation"
+    When I add book "Foundation"
+    Then the list should contain only "Foundation"
+
   Scenario: Filtering unread books returns only those not yet read
     Given I have added books "Foundation" and "Dune"
     And I have marked "Foundation" as read
